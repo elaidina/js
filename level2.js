@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'No, I haven´t'
+      img: 'String'
     },
     {
       name: '1',
-      img: "Nie, nemám."
+      img: "A sequence of characters. In JavaScript, strings can be enclosed within the single or double quotes."
     },
     {
       name: '2',
-      img: 'The sun is shining and it´s warm.'
+      img: 'Represent both integer and floating-point numbers.'
     },
     {
       name: '2',
-      img: "Slnko svieti a je teplo."
+      img: "Number"
     },
     {
       name: '3',
-      img: 'What would you like to do?'
+      img: 'Boolean'
     },
     {
       name: '3',
-      img: "Čo by si chcel robiť?"
+      img: "Represent a logical entity and can have two values: true or false."
     },
     {
       name: '4',
-      img: 'I would like to go out.'
+      img: 'Null'
     },
     {
       name: '4',
-      img: "Chcel by som ísť von."
+      img: "Represents the intentional absence of any object value."
     },
     {
       name: '5',
-      img: 'Excuse me, who are you?'
+      img: 'Undefined'
     },
     {
       name: '5',
-      img: "Prepáčte, kto ste?"
+      img: "A variable that has not been assigned a value is undefined."
     },
     {
       name: '6',
-      img: 'Hello, my name is Tom.'
+      img: 'Symbol'
     },
     {
       name: '6',
-      img: "Ahoj, volám sa Tom."
+      img: "It is a built-in object whose constructor returns a symbol-that is unique."
     },
     {
       name: '7',
-      img: 'Is Tom a good friend?'
+      img: 'BigInt'
     },
     {
       name: '7',
-      img: "Je Tom dobrý kamarát?"
+      img: "New data type used for numbers that are greater than the Number type can handle."
     },
     {
       name: '8',
-      img: "No, he isn´t."
+      img: "**type conversion** or **type casting**"
     },
     {
       name: '8',
-      img: 'Nie. Nie je.'
+      img: 'the process of explicitly converting a value from one type to another'
     },
     {
       name: '9',
-      img: 'That tall boy is my friend.'
+      img: 'We can convert it to a number type with the `parseInt()` function'
     },
     {
       name: '9',
-      img: "Ten vysoký chlapec je môj priateľ."
+      img: "  amount = parseInt(amount);   "
     },
     {
       name: '10',
-      img: 'Come here and sit down.'
+      img: 'If we want to convert it back to a string, we can use the `toString()` method'
     },
     {
       name: '10',
-      img: "Poď sem a sadni si."
+      img: "amount = amount.toString();"
     },
     {
       name: '11',
-      img: 'Michelle, lend me your pen, please.'
+      img: 'Addition, subtraction, multiplication and division'
     },
     {
       name: '11',
-      img: "Michelle, požičaj mi svoje pero, prosím."
+      img: "Arithmetic Operators"
     },
     {
       name: '12',
-      img: 'Let´s play with a ball.'
+      img: 'Concatenation'
     },
     {
       name: '12',
-      img: "Poďme sa hrať s loptou."
+      img: "The `+` operator can also be used to put 2 or more strings together. The use of `+` depends on the data type."
     }
   ]
 

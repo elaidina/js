@@ -3,99 +3,99 @@
   const cardArray = [
     {
       name: '1',
-      img: 'Is that your bag?'
+      img: 'Modulus is used to get a division remainder.'
     },
     {
       name: '1',
-      img: "To je tvoja taška?"
+      img: "10 % 3; // 1"
     },
     {
       name: '2',
-      img: 'What have you got in your hand?'
+      img: 'Exponentiation returns the result of the first operand to the power of the second.'
     },
     {
       name: '2',
-      img: "Čo to máš v ruke?"
+      img: "2**3; // 8"
     },
     {
       name: '3',
-      img: 'You can guess.'
+      img: 'Increment is used to **increment** or add 1 to a value.'
     },
     {
       name: '3',
-      img: "Môžeš hádať."
+      img: " x = 10;  x++; // 11"
     },
     {
       name: '4',
-      img: 'Yes, it is mine.'
+      img: 'Decrement is used to **decrement** or remove 1 from a value.'
     },
     {
       name: '4',
-      img: "Áno, to je moje."
+      img: " x = 10;  x--; // 9"
     },
     {
       name: '5',
-      img: 'This is my new bike.'
+      img: 'Value assignment'
     },
     {
       name: '5',
-      img: "Toto je môj nový bicykel."
+      img: "x = 10;"
     },
     {
       name: '6',
-      img: 'Whose bike is that?'
+      img: 'Addition assignment operator adds the amount on the right side.'
     },
     {
       name: '6',
-      img: "Čí je to bicykel?"
+      img: "x = 10;  x += 10; // 20   // Same as x = x + 10"
     },
     {
       name: '7',
-      img: 'It looks old.'
+      img: 'Subtraction assignment operator subtracts the amount on the right side.'
     },
     {
       name: '7',
-      img: 'Vyzerá staro.'
+      img: 'x = 10;      x -= 10;  // 0          // Same as x = x - 10'
     },
     {
       name: '8',
-      img: 'How old do I look?'
+      img: 'Multiplication assignment operator multiplies the amount on the right side'
     },
     {
       name: '8',
-      img: "Ako staro vyzerám?"
+      img: "x = 10;   x *= 10;    // 100           // Same as x = x \\* 10"
     },
     {
       name: '9',
-      img: 'You look like a child.'
+      img: 'Division assignment operator divides the amount on the right side.'
     },
     {
       name: '9',
-      img: 'Vyzeráš ako dieťa.'
+      img: 'x = 10; x /= 10; // 1 // Same as x = x / 10'
     },
     {
       name: '10',
-      img: 'That apple is red.'
+      img: 'Modulo assignment operator gets division remainder of the amount on the right side'
     },
     {
       name: '10',
-      img: 'To jablko je červené.'
+      img: 'x = 10; x %= 10; // 0 // Same as x = x % 10'
     },
     {
       name: '11',
-      img: 'What is your favourite colour?'
+      img: 'Exponentiation assignment operator gets exponent of the amount on the right side'
     },
     {
       name: '11',
-      img: "Aká je tvoja obľúbená farba?"
+      img: "x = 10; x **= 10; // 100 // Same as x = x \*\* 10"
     },
     {
       name: '12',
-      img: 'I like pink colour the most.'
+      img: 'Equal to operator - The following will return true even if the types do not match'
     },
     {
       name: '12',
-      img: "Najviac mám rada ružovú."
+      img: "2 == 2 // true 2 == '2' // true"
     }
   ]
 

@@ -3,99 +3,98 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray =  [
     {
       name: '1',
-      img: 'What´s your name?'
+      img: 'Declaring a Variable'
     },
     {
       name: '1',
-      img: "Ako sa voláš?"
+      img: "let firstName = 'John';"
     },
     {
       name: '2',
-      img: 'How are you?'
+      img: 'Variable Naming Conventions'
     },
     {
       name: '2',
-      img: "Ako sa máš?"
+      img: "Only letters, numbers, underscores and dollar signs, ...can not start with a number"
     },
     {
       name: '3',
-      img: 'I´m fine.'
+      img: 'Reassigning Values'
     },
     {
       name: '3',
-      img: "Som v pohode."
+      img: "let x = 100; x = 200;"
     },
     {
       name: '4',
-      img: 'What´s this?'
-    },
+      img: "const person = {name: 'Brad',}; person.name = 'John'; "},
     {
       name: '4',
-      img: "Čo je toto?"
+      img: "The object itself can be manipulated, even with const."
     },
     {
       name: '5',
-      img: 'Where are you?'
+      img: 'Declaring multiple values at once'
     },
     {
       name: '5',
-      img: "Kde si?"
+      img: "let a, b, c;    const d = 10, e = 20, f = 30;"
     },
     {
       name: '6',
-      img: 'I am at home.'
+      img: 'Let or Const - Which to Use?'
     },
     {
       name: '6',
-      img: "Som doma."
+      img: "use `const` unless it's a primitive value that I think I may need to re-assign at some point"
     },
     {
       name: '7',
-      img: 'Where are you going?'
+      img: 'Primitive Types'
     },
     {
       name: '7',
-      img: "Kam ideš?"
+      img: "Stored directly in the location that the variables is accessed"
     },
     {
       name: '8',
-      img: 'I am so excited!'
+      img: 'Reference Types (Objects)'
     },
     {
       name: '8',
-      img: "Som tak nadšená!"
+      img: "Accessed by reference"
     },
     {
       name: '9',
-      img: 'How old are you?'
+      img: 'TypeScript'
     },
     {
       name: '9',
-      img: "Koľko máš rokov?"
+      img: "const y:number = 100"
     },
     {
       name: '10',
-      img: "Mám 7 rokov"
+      img: "To check the type of a variable in JavaScript, you can use the typeof operator"
     },
     {
       name: '10',
-      img: 'I am 7 years old.'
+      img: 'console.log(typeof name)'
     },
     {
       name: '11',
-      img: 'Do you have a sister or brother?'
+      img: 'Reference Data Types (Objects)'
     },
     {
       name: '11',
-      img: "Máš sestru alebo brata?"
+      img: "Arrays, Object Literals, Functions"
     },
     {
       name: '12',
-      img: 'How is the weather today?'
+      img: "const sayHello = function() { return 'Hello'; }"
     },
     {
       name: '12',
-      img: "Aké je dnes počasie?"
+      img: "Functions are also objects in JavaScript. They can have `properties` and `methods`. "
     }
   ]
 
