@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Go to the door.'
+      img: "what are the boolean values of true and false as a number"
     },
     {
       name: '1',
-      img: "Choď k dverám."
+      img: "Number(true); // 1      Number(false); // 0"
     },
     {
       name: '2',
-      img: 'Can you shut the door?'
+      img: 'NaN or **not a number**'
     },
     {
       name: '2',
-      img: "Môžeš zavrieť dvere?"
+      img: "5 + undefined; // NaN"
     },
     {
       name: '3',
-      img: 'What are you doing right now?'
+      img: 'This is because not all NaN numbers are created equal.'
     },
     {
       name: '3',
-      img: "Čo práve robíš?"
+      img: "NaN == NaN // false"
     },
     {
       name: '4',
-      img: 'I´m drawing a flower.'
+      img: '5 + NaN; // NaN'
     },
     {
       name: '4',
-      img: "Kreslím kvet."
+      img: "NaN is the result of a failed number operation"
     },
     {
       name: '5',
-      img: 'I am painting with my new water colours.'
+      img: 'isNan(NaN); // true'
     },
     {
       name: '5',
-      img: "Maľujem svojimi novými vodovými farbami."
+      img: "isNan('Hello') // true"
     },
     {
       name: '6',
-      img: 'You have to eat your breakfast.'
+      img: 'If you really want to check for the specific value of NaN, you can use the isNan method on the Number object.'
     },
     {
       name: '6',
-      img: "Musíš sa naraňajkovať."
+      img: "Number.isNan(NaN) // true      Number.isNaN('Hello') //false"
     },
     {
       name: '7',
-      img: 'What do we have for breakfast?'
+      img: 'Concatenation'
     },
     {
       name: '7',
-      img: "Čo máme na raňajky?"
+      img: "'Hello, my name is ' + name + ' and I am ' + age + ' years old';"
     },
     {
       name: '8',
-      img: 'There is milk, bread and butter.'
+      img: 'Template Literals'
     },
     {
       name: '8',
-      img: "Je tam mlieko, chlieb a maslo."
+      img: "`Hello, my name is ${name} and I am ${age} years old`;"
     },
     {
       name: '9',
-      img: 'I don´t want to drink milk.'
+      img: "const s = new String('Hello World');"
     },
     {
       name: '9',
-      img: "Nechcem piť mlieko."
+      img: "We can actually create a string object ourselves by using the `new` keyword and then the `String constructor`"
     },
     {
       name: '10',
-      img: 'What would you like to drink?'
+      img: 'console.log(s[3]); // prints "l"'
     },
     {
       name: '10',
-      img: "Čo si dáte na pitie?"
+      img: 'We get the letter "l" because it is the letter at index 3.'
     },
     {
       name: '11',
-      img: 'I am not thirsty anymore.'
+      img: 'You can also access the prototype directly'
     },
     {
       name: '11',
-      img: 'Už nie som smädný.'
+      img: 'console.log(s.__proto__);'
     },
     {
       name: '12',
-      img: 'I´m looking for my wallet.'
+      img: 'Length is pretty common for multiple data types. On an array, it will tell us the number of elements in it. '
     },
     {
       name: '12',
-      img: "Hľadám svoju peňaženku."
+      img: "const greeting = 'Hello World';      greeting.length; // 11"
     }
   ]
   cardArray.sort(() => 0.5 - Math.random())

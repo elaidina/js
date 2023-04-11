@@ -3,19 +3,19 @@
   const cardArray = [
     {
       name: '1',
-      img: 'Modulus is used to get a division remainder.'
+      img: 'Comparison operators'
     },
     {
       name: '1',
-      img: "10 % 3; // 1"
+      img: "are used to compare values"
     },
     {
       name: '2',
-      img: 'Exponentiation returns the result of the first operand to the power of the second.'
+      img: 'Equal value & equal type - The types have to match or it will return false'
     },
     {
       name: '2',
-      img: "2**3; // 8"
+      img: "2 === 2 // true      2 === '2' // false"
     },
     {
       name: '3',

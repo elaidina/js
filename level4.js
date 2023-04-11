@@ -3,99 +3,98 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'The bottle is empty.'
+      img: 'Modulus is used to get a division remainder.'
     },
     {
       name: '1',
-      img: "Tá fľaša je prázdna."
+      img: "10 % 3; // 1"
     },
     {
       name: '2',
-      img: 'Do you have any bottle?'
+      img: 'Exponentiation returns the result of the first operand to the power of the second.'
     },
     {
       name: '2',
-      img: "Máš nejakú fľašu?"
+      img: "2**3; // 8"
     },
     {
       name: '3',
-      img: 'No, I don´t have any bottle.'
+      img: 'Not equal to operator - returns true if not equalo, I don´t have any bottle.'
     },
     {
       name: '3',
-      img: 'Nie, nemám žiadnu fľašu.'
+      img: "2 != 2 // false     2 != '2' // false"  },
+    {
+      name: '4',
+      img: 'Not equal value & equal type'
     },
     {
       name: '4',
-      img: 'I have to go home.'
-    },
-    {
-      name: '4',
-      img: "Musím ísť domov."
+      img: "2 !== 2 //false      2 !== '2' //true"
     },
     {
       name: '5',
-      img: 'Why do you have to go?'
+      img: 'Greater than'
     },
     {
       name: '5',
-      img: "Prečo musíš ísť?"
+      img: "10 > 5 // true"
     },
     {
       name: '6',
-      img: 'I´m very tired.'
+      img: 'Less than'
     },
     {
       name: '6',
-      img: "Som veľmi unavený."
+      img: "10 < 5 // false"
     },
     {
       name: '7',
-      img: 'Where is your car?'
+      img: 'Greater than or equal'
     },
     {
       name: '7',
-      img: "Kde máš auto?"
+      img: "10 >= 5 // true"
     },
     {
       name: '8',
-      img: 'I don´t remember.'
+      img: 'Less than or equal'
     },
     {
       name: '8',
-      img: "Nepamätám si."
+      img: "10 <= 5 // false"
     },
     {
       name: '9',
-      img: 'I´ve got a present for you.'
+      img: 'the `==` operator is used to compare values. The `===` operator is used to compare values and types'
     },
     {
       name: '9',
-      img: "Mám pre teba darček."
+      img: "== vs ==="
     },
     {
       name: '10',
-      img: "Chcem to vidieť."
+      img: "if we use the **+** operator on the **number** 5 and a **string** with the character '5', we get a **string** of 55"
     },
     {
       name: '10',
-      img: 'I want to see it.'
+      img: "5 + '5'; // 55(string)"
     },
     {
       name: '11',
-      img: 'Je to veľké a krásne.'
+      img: "if I wanted to add these together, I would first convert the string '55' to a number like this"
     },
     {
       name: '11',
-      img: 'It ´s big and beautiful.'
+      img: "5 + Number('5'); // 10"
     },
     {
       name: '12',
-      img: 'Give me the box.'
+      img: 'null is coerced to a number of 0'
     },
     {
       name: '12',
-      img: 'Daj mi tú krabicu.'
+      img: '5 + null; // 5'
     }
   ]
 
