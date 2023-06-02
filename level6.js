@@ -3,59 +3,59 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'How can I help you?'
+      img: 'Changing case'
     },
     {
       name: '1',
-      img: "Ako ti môžem pomôcť?"
+      img: "greeting.toUpperCase(); greeting.toLowerCase();"
     },
     {
       name: '2',
-      img: 'Can you have a look on the table?'
+      img: 'Returns the character at the specified index.'
     },
     {
       name: '2',
-      img: "Môžeš sa pozrieť na stôl?"
+      img: "greeting.charAt(0);"
     },
     {
       name: '3',
-      img: 'It was under the table.'
+      img: 'we pass the value and it will give us the index of the first occurrence of the character(s)'
     },
     {
       name: '3',
-      img: 'Bolo to pod stolom.'
+      img: 'indexOf()'
     },
     {
       name: '4',
-      img: 'I thought it was on the cupboard or near the chair.'
+      img: 'greeting.substring(0, 4); // Hell'
     },
     {
       name: '4',
-      img: 'Myslel som, že je to na skrini alebo blízko stoličky.'
+      img: "we want to pull out a substring of 'Hell' from 'Hello World', we would start at character 0 and go 4 in length"
     },
     {
       name: '5',
-      img: 'I´m building a lego car.'
+      img: 'Extracts a part of a string and returns a new string.'
     },
     {
       name: '5',
-      img: "Staviam legové auto."
+      img: "greeting.slice(0, 4); // Hell      //  We can also use negative numbers      greeting.slice(-11, -7) // Hell"
     },
     {
       name: '6',
-      img: 'Look at this small picture.'
+      img: 'Trim the whitespace of a string.'
     },
     {
       name: '6',
-      img: 'Pozri sa na tento malý obrázok.'
+      img: "x = '       Hello World!        ';      x = x.trim(); // Hello World!"
     },
     {
       name: '7',
-      img: 'There are many strawberries, cherries, raspberries and grapes.'
+      img: 'Replace all instances of a string'
     },
     {
       name: '7',
-      img: 'Je tam veľa jahôd, čerešní, malín a hrozna.'
+      img: "const url = 'media.com';      url.replace('media', 'google'); // google.com" 
     },
     {
       name: '8',
